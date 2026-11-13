@@ -1,62 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="de-CH">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="TE Tetaj Barber & Beauty in Emmenbrücke. Entdecke Schnitte, Farben und Barber-Looks und frage deinen Termin per Instagram an.">
-<title>TE Tetaj — Barber & Beauty Emmenbrücke</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="TE Tetaj Barber &amp; Beauty in Emmenbrücke. Looks, Leistungen und Preisliste entdecken." name="description"/>
+<title>TE Tetaj — Barber &amp; Beauty Emmenbrücke</title>
 <style>
 :root{color-scheme:dark;--bg:#101110;--ink:#f4f0e8;--muted:#bdbab1;--accent:#e8a783;--line:#ffffff29}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,sans-serif}a{color:inherit;text-decoration:none}a:focus-visible{outline:2px solid var(--accent);outline-offset:5px}img{display:block;width:100%;height:100%;object-fit:cover}h1,h2,p,figure{margin:0}h1,h2{font-family:Georgia,serif;font-weight:400;letter-spacing:-.065em;line-height:.95}h1{font-size:clamp(4rem,9.1vw,9rem)}h2{font-size:clamp(3.4rem,7vw,7rem)}em{color:var(--accent);font-weight:400}.wrap{width:min(1312px,90%);margin:auto}.eyebrow{font-size:.72rem;letter-spacing:.17em;text-transform:uppercase;font-weight:650;color:var(--accent)}header{border-bottom:1px solid var(--line)}nav{display:flex;min-height:76px;justify-content:space-between;align-items:center;gap:16px}.brand{display:flex;align-items:center;gap:13px;font-size:.66rem;text-transform:uppercase;letter-spacing:.14em;line-height:1.35}.mark{font:2.45rem/.9 Georgia;letter-spacing:-.17em;padding-right:.15em}.navlinks{display:flex;gap:32px;font-size:.85rem;color:var(--muted)}.button{display:inline-flex;align-items:center;justify-content:space-between;gap:20px;background:var(--accent);color:#21140f;padding:14px 19px;font-weight:700;font-size:.86rem;min-height:46px;transition:background .2s}.button:hover{background:#f7c4a7}.outline{background:transparent;color:var(--ink);border:1px solid var(--line)}.outline:hover{background:#ffffff16}.hero{display:grid;grid-template-columns:1fr .88fr;gap:5%;align-items:center;padding:64px 0 56px}.hero h1{margin:19px 0 24px}.intro{color:var(--muted);max-width:35ch;margin-bottom:26px}.hero-images{display:grid;grid-template-columns:1fr .65fr;gap:9px;align-items:end}.hero-images figure{aspect-ratio:.72;overflow:hidden}.hero-images figure+figure{aspect-ratio:.57;margin-bottom:28px}.hero-images img{object-position:center}.strip{border-block:1px solid var(--line);padding:17px 0}.strip .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.strip span{color:var(--muted);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase}.section{padding:90px 0;scroll-margin-top:18px}.section h2{margin-top:12px}.heading{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:32px}.gallery{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}.gallery img{aspect-ratio:.94;height:auto;transition:filter .25s}.gallery img:hover{filter:brightness(1.14)}figcaption{padding-top:12px;font-size:.84rem;color:var(--muted)}.services{background:#1e1816}.service-grid{display:grid;grid-template-columns:1fr 1fr;gap:8%}.row{padding:16px 0;border-top:1px solid var(--line)}.row:last-child{border-bottom:1px solid var(--line)}.row h3{margin:0 0 4px;font:1.6rem Georgia}.row p,.contact p{color:var(--muted)}.contact{display:grid;grid-template-columns:.7fr 1fr;align-items:center;gap:8%}.contact img{aspect-ratio:1.3;object-position:50% 40%}.contact p{margin:20px 0}.contact .button{margin:0 6px 8px 0}footer{border-top:1px solid var(--line);padding:22px 0;color:var(--muted);font-size:.82rem}footer .wrap{display:flex;justify-content:space-between;gap:12px}@media(max-width:720px){.navlinks{display:none}.hero,.service-grid,.contact{grid-template-columns:1fr}.hero{padding:40px 0;gap:30px}.hero-images figure{aspect-ratio:.93}.hero-images figure+figure{aspect-ratio:.69;margin-bottom:16px}.section{padding:56px 0}.heading{align-items:start;flex-direction:column}.gallery{gap:7px}.gallery img{aspect-ratio:.72}.service-grid,.contact{gap:26px}.contact img{max-height:300px}.strip span{font-size:.62rem}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
 .gallery{row-gap:30px}.gallery img{aspect-ratio:.83}.gallery figure{min-width:0}.gallery figure:nth-child(3n+2){margin-top:42px}.hero{min-height:min(740px,85svh)}.section{padding-block:clamp(65px,9vw,135px)}.feature{display:grid;grid-template-columns:1.1fr 1fr;gap:9%;align-items:center}.feature figure img{aspect-ratio:1.35;object-position:center 41%}.feature p:not(.eyebrow){max-width:44ch;color:var(--muted);margin:22px 0}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:36px}.steps article{border-top:1px solid var(--line);padding-top:18px}.steps h3{font:1.6rem Georgia;margin:12px 0 8px}.steps p,.faq p{color:var(--muted)}.faq details{border-top:1px solid var(--line);padding:16px 0}.faq details:last-child{border-bottom:1px solid var(--line)}.faq summary{cursor:pointer;font-weight:650}.faq p{margin-top:8px}.booking{background:#241a17}.contact img{aspect-ratio:1.03}.hero-cta{display:flex;flex-wrap:wrap;gap:10px}.inlinelink{text-decoration:underline;text-underline-offset:.22em}@media(max-width:720px){.hero{min-height:0}.gallery{grid-template-columns:1fr 1fr;gap:20px 10px}.gallery figure:nth-child(n){margin-top:0}.feature,.steps{grid-template-columns:1fr}.feature{gap:26px}.steps{gap:18px}}
 </style>
-</head>
+<style>
+body{overflow-x:hidden}.button{min-width:0;text-align:left}.price-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.price-card{background:#1e1816;border:1px solid var(--line);padding:clamp(20px,3vw,40px)}.price-card h3{font:clamp(2.2rem,4vw,4rem)/1 Georgia,serif;letter-spacing:-.05em;margin:0 0 30px}.price-card h4{color:var(--accent);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;margin:30px 0 8px}.price-card dl{margin:0}.price-card dl div{display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-top:1px solid var(--line);padding:10px 0}.price-card dt{min-width:0}.price-card dd{white-space:nowrap;margin:0;font-weight:650}.price-note{color:var(--muted);font-size:.8rem;margin-top:16px}.booking-inner{display:flex;align-items:end;justify-content:space-between;gap:30px}.booking-inner h2{max-width:9ch}.gallery img{width:100%;object-fit:cover}.hero-images img{width:100%;object-fit:cover}
+@media(max-width:900px){.navlinks{gap:13px}.hero{grid-template-columns:1fr 1fr}.hero h1{font-size:clamp(3.3rem,8vw,5.5rem)}}
+@media(max-width:720px){.wrap{width:min(100% - 32px,520px)}nav{min-height:68px;flex-wrap:wrap;padding:10px 0}.brand{flex:1}.navlinks{display:flex;order:3;width:100%;overflow-x:auto;white-space:nowrap;gap:22px;padding:5px 0 3px;scrollbar-width:none}.navlinks::-webkit-scrollbar{display:none}nav>.button{padding:10px 12px;font-size:.74rem;min-height:42px}.hero{grid-template-columns:1fr;gap:22px;padding:36px 0}.hero h1{font-size:clamp(3.5rem,13vw,6rem);overflow-wrap:break-word}.hero-images{max-height:390px;overflow:hidden}.hero-images figure{aspect-ratio:1}.hero-images figure+figure{aspect-ratio:.75}.hero-cta .button{width:100%}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 9px}.gallery figure{min-width:0}.gallery figcaption{font-size:.76rem}.price-grid{grid-template-columns:1fr}.prices .heading .button{width:100%}.booking-inner{align-items:start;flex-direction:column}.booking-inner .button{width:100%}.contact .button{width:100%;margin:0 0 8px}.contact img{max-height:none;aspect-ratio:1}.feature figure img{aspect-ratio:1.15}.section{padding-block:60px}footer .wrap{flex-wrap:wrap}}
+@media(max-width:390px){.wrap{width:calc(100% - 28px)}.brand{gap:8px;font-size:.55rem}.mark{font-size:2rem}nav>.button{font-size:.7rem;padding:8px}.price-card{padding:17px}.price-card dl div{font-size:.87rem}.gallery img{aspect-ratio:.8}}
+</style></head>
 <body>
-<header id="start"><nav class="wrap" aria-label="Hauptnavigation">
-<a class="brand" href="#start" aria-label="TE Tetaj, Start"><span class="mark" aria-hidden="true">TE</span><span>Tetaj<br>Barber &amp; Beauty</span></a>
-<div class="navlinks"><a href="#looks">Looks</a><a href="#leistungen">Leistungen</a><a href="#studio">Studio</a></div>
-<a class="button outline" href="https://ig.me/m/te.tetaj">Termin anfragen <span aria-hidden="true">↗</span></a>
+<header id="start"><nav aria-label="Hauptnavigation" class="wrap">
+<a aria-label="TE Tetaj, Start" class="brand" href="#start"><span aria-hidden="true" class="mark">TE</span><span>Tetaj<br/>Barber &amp; Beauty</span></a>
+<div class="navlinks"><a href="#looks">Looks</a><a href="#leistungen">Leistungen</a><a href="#preise">Preise</a><a href="#studio">Studio</a></div>
+<a class="button outline" href="termin.html">Jetzt Termin buchen<span aria-hidden="true"> ↗</span></a>
 </nav></header>
 <main>
-<section class="hero wrap" aria-labelledby="titel">
-<div><p class="eyebrow">Barber &amp; Beauty · Emmenbrücke</p><h1 id="titel">Guter Schnitt.<br><em>Starke Farbe.</em></h1><p class="intro">Vom frischen Fade bis zum leuchtenden Kupfer. Entdecke deinen nächsten Look bei TE Tetaj.</p><div class="hero-cta"><a class="button" href="https://ig.me/m/te.tetaj">Termin per Instagram anfragen <span aria-hidden="true">↗</span></a><a class="button outline" href="#looks">Looks entdecken</a></div></div>
-<div class="hero-images"><figure><img src="kupfer.webp" width="156" height="209" alt="Kupferfarbene Wellen aus dem Studio"></figure><figure><img src="fade.webp" width="156" height="209" alt="Barber-Schnitt mit Fade und gestyltem Deckhaar"></figure></div>
+<section aria-labelledby="titel" class="hero wrap">
+<div><p class="eyebrow">Barber &amp; Beauty · Emmenbrücke</p><h1 id="titel">Guter Schnitt.<br/><em>Starke Farbe.</em></h1><p class="intro">Vom frischen Fade bis zum leuchtenden Kupfer. Entdecke deinen nächsten Look bei TE Tetaj.</p><div class="hero-cta"><a class="button" href="termin.html">Jetzt Termin buchen<span aria-hidden="true"> ↗</span></a><a class="button outline" href="#looks">Looks entdecken</a></div></div>
+<div class="hero-images"><figure><img alt="Kupferfarbene Wellen aus dem Studio" decoding="async" height="1400" src="kupfer.webp" width="1100"/></figure><figure><img alt="Barber-Schnitt mit Fade und gestyltem Deckhaar" decoding="async" height="1400" src="fade.webp" width="1100"/></figure></div>
 </section>
 <div class="strip"><div class="wrap"><span>Haarschnitt &amp; Styling</span><span>Coloration</span><span>Barber &amp; Bart</span></div></div>
 <section class="section wrap" id="looks">
 <div class="heading"><div><p class="eyebrow">Aus dem Studio</p><h2>Die Looks.</h2></div><a class="button outline" href="https://www.instagram.com/te.tetaj/">Mehr auf Instagram <span aria-hidden="true">↗</span></a></div>
 <div class="gallery">
-<figure><img src="bob.webp" width="156" height="209" loading="lazy" alt="Glatter blonder Bob"><figcaption>Blonder Bob</figcaption></figure>
-<figure><img src="rot.webp" width="156" height="209" loading="lazy" alt="Roter Bob mit Wellen"><figcaption>Leuchtendes Rot</figcaption></figure>
-<figure><img src="schnitt.webp" width="156" height="209" loading="lazy" alt="Haarschnitt im Salon"><figcaption>Beim Schnitt</figcaption></figure>
-<figure><img src="wellen.webp" width="154" height="206" loading="lazy" alt="Goldblonde Wellen"><figcaption>Goldblonde Wellen</figcaption></figure>
-<figure><img src="brunette.webp" width="154" height="206" loading="lazy" alt="Warme Brauntöne"><figcaption>Warme Brauntöne</figcaption></figure>
-<figure><img src="violett.webp" width="154" height="206" loading="lazy" alt="Violette Akzente"><figcaption>Violette Akzente</figcaption></figure>
-<figure><img src="kurz.webp" width="154" height="206" loading="lazy" alt="Kurzer Fade"><figcaption>Kurzer Fade</figcaption></figure>
-<figure><img src="bart.webp" width="154" height="206" loading="lazy" alt="Bartkonturen"><figcaption>Bartkonturen</figcaption></figure>
-<figure><img src="kupfer.webp" width="154" height="206" loading="lazy" alt="Kupferfarbene Wellen"><figcaption>Kupferfarbene Wellen</figcaption></figure>
+<figure><img alt="Glatter blonder Bob" decoding="async" height="1400" loading="lazy" src="bob.webp" width="1100"/><figcaption>Blonder Bob</figcaption></figure>
+<figure><img alt="Roter Bob mit Wellen" decoding="async" height="1400" loading="lazy" src="rot.webp" width="1100"/><figcaption>Leuchtendes Rot</figcaption></figure>
+<figure><img alt="Präziser Fade während des Schneidens im Salon" decoding="async" height="1400" loading="lazy" src="schnitt.webp" width="1100"/><figcaption>Beim Schnitt</figcaption></figure>
+<figure><img alt="Goldblonde Wellen" decoding="async" height="1400" loading="lazy" src="wellen.webp" width="1100"/><figcaption>Goldblonde Wellen</figcaption></figure>
+<figure><img alt="Warme Brauntöne" decoding="async" height="1400" loading="lazy" src="brunette.webp" width="1100"/><figcaption>Warme Brauntöne</figcaption></figure>
+<figure><img alt="Violette Akzente" decoding="async" height="1400" loading="lazy" src="violett.webp" width="1100"/><figcaption>Violette Akzente</figcaption></figure>
+<figure><img alt="Kurzer Fade" decoding="async" height="1400" loading="lazy" src="kurz.webp" width="1100"/><figcaption>Kurzer Fade</figcaption></figure>
+<figure><img alt="Bartkonturen" decoding="async" height="1400" loading="lazy" src="bart.webp" width="1100"/><figcaption>Bartkonturen</figcaption></figure>
+<figure><img alt="Kupferfarbene Wellen" decoding="async" height="1400" loading="lazy" src="kupfer.webp" width="1100"/><figcaption>Kupferfarbene Wellen</figcaption></figure>
 </div></section>
 <section class="section services" id="leistungen"><div class="wrap service-grid">
 <div><p class="eyebrow">Leistungen</p><h2>Was steht an?</h2></div>
 <div><div class="row"><h3>Haarschnitt &amp; Styling</h3><p>Ein neuer Bob, ein kürzerer Schnitt oder Wellen fürs Finish. Bring ein Foto mit, wenn du eine bestimmte Form im Kopf hast.</p></div><div class="row"><h3>Coloration</h3><p>Von natürlichen Blond- und Brauntönen bis zu Kupfer, Rot und violetten Akzenten. Im Portfolio siehst du, wie unterschiedlich Farbe wirken kann.</p></div><div class="row"><h3>Barber &amp; Bart</h3><p>Kurze Schnitte mit weichen Übergängen, gestyltes Deckhaar und sauber definierte Bartkonturen.</p></div></div>
-</div></section>
-<section class="section wrap feature" aria-labelledby="studio-einblick">
-<figure><img src="fassade.webp" width="154" height="206" loading="lazy" alt="Eingang zum Barber &amp; Beauty Studio mit TE-Schriftzug"><figcaption>Barber &amp; Beauty an der Seetalstrasse</figcaption></figure>
-<div><p class="eyebrow">Ein Blick ins Studio</p><h2 id="studio-einblick">Schere, Farbe,<br><em>Barber.</em></h2><p>Bei TE Tetaj kommen Coiffeur und Barber unter einem Dach zusammen. Im Instagram-Profil findest du Schnitte, Farbwechsel und Einblicke in die Arbeit am Stuhl.</p><a class="button outline" href="https://www.instagram.com/te.tetaj/">Studio auf Instagram ansehen ↗</a></div>
+</div></section><section aria-labelledby="preise-titel" class="section wrap prices" id="preise">
+<div class="heading"><div><p class="eyebrow">Transparent auf einen Blick</p><h2 id="preise-titel">Die Preise.</h2></div><a class="button" href="termin.html">Jetzt Termin buchen <span aria-hidden="true">↗</span></a></div>
+<div class="price-grid">
+<div class="price-card"><h3>Damen Haare</h3>
+<h4>Schnitt &amp; Styling</h4>
+<dl><div><dt>Waschen / schneiden</dt><dd>CHF 49.–</dd></div><div><dt>Waschen / schneiden / föhnen</dt><dd>CHF 59.–</dd></div><div><dt>Waschen / föhnen · KH</dt><dd>CHF 25.–</dd></div><div><dt>Waschen / föhnen · MLH</dt><dd>CHF 35.–</dd></div><div><dt>Waschen / föhnen · LH</dt><dd>CHF 45.–</dd></div></dl>
+<h4>Färben</h4><dl><div><dt>Waschen / färben / föhnen · KH ab</dt><dd>CHF 60.–</dd></div><div><dt>Tönungen · KH ab</dt><dd>CHF 35.–</dd></div><div><dt>Folienmèches · KH ab</dt><dd>CHF 72.–</dd></div><div><dt>Balayage · KH ab</dt><dd>CHF 72.–</dd></div><div><dt>K2.0 Treatment inkl. KH</dt><dd>CHF 68.–</dd></div></dl>
+<h4>Augenbrauen</h4><dl><div><dt>Zupfen</dt><dd>CHF 15.–</dd></div><div><dt>Färben</dt><dd>CHF 15.–</dd></div></dl>
+<h4>Make-up &amp; Brautstyling</h4><dl><div><dt>Make-up ab</dt><dd>CHF 65.–</dd></div><div><dt>Braut Make-up inkl. 1× Probe</dt><dd>CHF 330.–</dd></div><div><dt>Hochstecken ab</dt><dd>CHF 99.–</dd></div><div><dt>Brautfrisur inkl. 1× Probe</dt><dd>CHF 230.–</dd></div><div><dt>Mobiles Brautstyling</dt><dd>Preis nach Anfrage</dd></div></dl>
+</div><div class="price-card"><h3>Herren Haare</h3>
+<h4>Schnitt</h4><dl><div><dt>Haarschnitt</dt><dd>CHF 25.–</dd></div><div><dt>Haarschnitt für Kinder bis 15 Jahre</dt><dd>CHF 20.–</dd></div></dl>
+<h4>Bart</h4><dl><div><dt>Nassrasur</dt><dd>CHF 25.–</dd></div><div><dt>Bart schneiden / pflegen</dt><dd>CHF 20.–</dd></div><div><dt>Konturen schneiden / Styling</dt><dd>CHF 15.–</dd></div></dl>
+<h4>Kombination</h4><dl><div><dt>Haarschnitt / Bart</dt><dd>CHF 42.–</dd></div><div><dt>Haarschnitt / Bart / Augenbrauen</dt><dd>CHF 48.–</dd></div></dl>
+<h4>Styling &amp; mehr</h4><dl><div><dt>Gesichtspflege (Tonmaske, Facescrub)</dt><dd>CHF 13.–</dd></div><div><dt>Heisswachs ab</dt><dd>CHF 10.–</dd></div></dl>
+</div></div><p class="price-note">KH = kurzes Haar · MLH = mittellanges Haar · LH = langes Haar. Preise gemäss bereitgestellter Preisliste.</p>
 </section>
-<section class="section booking" aria-labelledby="termin"><div class="wrap">
-<p class="eyebrow">Terminanfrage</p><h2 id="termin">Dein nächster Look.</h2>
-<div class="steps"><article><span class="eyebrow">01</span><h3>Look aussuchen</h3><p>Stöbere durch die Galerie und speichere ein Foto, das dir gefällt.</p></article><article><span class="eyebrow">02</span><h3>Nachricht schreiben</h3><p>Schick dem Studio deinen Wunsch und sag, an welchen Tagen du Zeit hast.</p></article><article><span class="eyebrow">03</span><h3>Termin absprechen</h3><p>Kläre Preis und Verfügbarkeit direkt im Chat mit dem Studio.</p></article></div>
-</div></section>
-<section class="section wrap service-grid faq" aria-labelledby="fragen"><div><p class="eyebrow">Vor dem Besuch</p><h2 id="fragen">Gut zu wissen.</h2></div><div>
-<details><summary>Wo finde ich die Preisliste?</summary><p>Im Highlight «PREISLISTE» auf <a class="inlinelink" href="https://www.instagram.com/te.tetaj/">Instagram</a>. Den Preis für deinen konkreten Look kannst du direkt beim Studio erfragen.</p></details>
-<details><summary>Was schreibe ich in die Terminanfrage?</summary><p>Nenne den gewünschten Schnitt, die Farbe oder den Barber-Service und schlage passende Tage vor. Ein Referenzfoto kann helfen.</p></details>
-<details><summary>Wo ist das Studio?</summary><p>An der Seetalstrasse 36 in 6020 Emmenbrücke. Weiter unten findest du den direkten Routenlink.</p></details>
-</div></section>
+<section aria-labelledby="studio-einblick" class="section wrap feature">
+<figure><img alt="Fassade mit TE Barber and Beauty Schriftzug" decoding="async" height="1400" loading="lazy" src="studio.webp" width="1100"/><figcaption>Barber &amp; Beauty an der Seetalstrasse</figcaption></figure>
+<div><p class="eyebrow">Ein Blick ins Studio</p><h2 id="studio-einblick">Schere, Farbe,<br/><em>Barber.</em></h2><p>Bei TE Tetaj kommen Coiffeur und Barber unter einem Dach zusammen. Im Instagram-Profil findest du Schnitte, Farbwechsel und Einblicke in die Arbeit am Stuhl.</p><a class="button outline" href="https://www.instagram.com/te.tetaj/">Studio auf Instagram ansehen ↗</a></div>
+</section>
+<section class="section booking"><div class="wrap booking-inner"><div><p class="eyebrow">Dein nächster Besuch</p><h2>Bereit für einen <em>neuen Look?</em></h2></div><a class="button" href="termin.html">Jetzt Termin buchen <span aria-hidden="true">↗</span></a></div></section>
+
 <section class="section wrap contact" id="studio">
-<img src="studio.webp" width="156" height="209" loading="lazy" alt="Schwarze Studiofassade mit weissem TE-Schriftzug">
-<div><p class="eyebrow">TE Tetaj · Barber &amp; Beauty</p><h2>Bis im <em>Studio.</em></h2><p>Seetalstrasse 36<br>6020 Emmenbrücke</p><a class="button" href="https://ig.me/m/te.tetaj">Termin anfragen <span aria-hidden="true">↗</span></a><a class="button outline" href="https://www.google.com/maps/search/?api=1&amp;query=Seetalstrasse%2036%2C%206020%20Emmenbr%C3%BCcke">Route öffnen <span aria-hidden="true">↗</span></a></div>
+<img alt="Teuta Tetaj vor dem Barber &amp; Beauty Studio" decoding="async" height="1400" loading="lazy" src="fassade.webp" width="1100"/>
+<div><p class="eyebrow">TE Tetaj · Barber &amp; Beauty</p><h2>Bis im <em>Studio.</em></h2><p>Seetalstrasse 36<br/>6020 Emmenbrücke</p><a class="button" href="termin.html">Jetzt Termin buchen<span aria-hidden="true"> ↗</span></a><a class="button outline" href="https://www.google.com/maps/search/?api=1&amp;query=Seetalstrasse%2036%2C%206020%20Emmenbr%C3%BCcke">Route öffnen <span aria-hidden="true">↗</span></a></div>
 </section></main>
 <footer><div class="wrap"><span>TE Tetaj · Barber &amp; Beauty</span><a href="https://www.instagram.com/te.tetaj/">@te.tetaj ↗</a></div></footer>
 </body></html>
